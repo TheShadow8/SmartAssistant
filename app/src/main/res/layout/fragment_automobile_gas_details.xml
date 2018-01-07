@@ -1,0 +1,108 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="6"
+    android:background="#FFEECC"
+    tools:context="com.example.thanh.mobilefinal.AutomobileGasDetailsFragment">
+
+    <TextView
+        android:id="@+id/gasDetailsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="2"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:text="@string/gas_price" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:inputType="numberDecimal"
+        android:maxLength="4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:text="@string/gas_litres" />
+
+    <EditText
+        android:id="@+id/etLitres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:inputType="numberDecimal"
+        android:maxLength="4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:text="@string/distance" />
+
+    <EditText
+        android:id="@+id/etKilometers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:inputType="numberDecimal"
+        android:maxLength="4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:text="@string/purchased_date" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:clickable="true"
+        android:focusable="false"
+        android:inputType="none"
+        android:maxLength="10" />
+
+    <Button
+        android:id="@+id/btnGasDetailsCancel"
+        android:layout_gravity="start"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:background="#FF4444 "
+        android:text="@string/cancel"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnGasDetailsSubmit"
+        android:layout_gravity="end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF" />
+
+</GridLayout>

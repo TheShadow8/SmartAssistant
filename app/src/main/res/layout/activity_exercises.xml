@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlueLight"
+    tools:context="com.example.thanh.mobilefinal.ExercisesActivity">
+
+    <ProgressBar
+        android:id="@+id/t_progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorBlueLight"
+        android:progress="@android:integer/config_shortAnimTime"
+        android:progressTint="@android:color/holo_red_light"
+        android:visibility="invisible" />
+
+    <FrameLayout
+        android:id="@+id/t_listview_Frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlueLight"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/t_newActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/exercises"
+        app:layout_anchor="@id/t_listview_Frame"
+        app:layout_anchorGravity="bottom|center_horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+</RelativeLayout>

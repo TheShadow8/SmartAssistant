@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thanh.mobilefinal.ExerciseTrackingEditFragment">
+
+    <TextView
+        android:id="@+id/t_type_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/t_type_value"
+        android:layout_marginStart="15dp"
+        android:textSize="15dp"
+        android:text="@string/t_type" />
+
+    <Spinner
+        android:id="@+id/t_type_value"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginTop="40dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/t_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/t_duration_label"
+        android:layout_alignStart="@+id/t_type_label"
+        android:text="@string/t_time"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/t_time_value"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/t_type_value"
+        android:layout_below="@+id/t_type_value"
+        android:layout_marginTop="15dp"
+        android:inputType="date"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/t_duration_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/t_time_label"
+        android:layout_below="@+id/t_time_value"
+        android:layout_marginTop="31dp"
+        android:textSize="15dp"
+        android:text="@string/t_duration" />
+
+    <EditText
+        android:id="@+id/t_duration_value"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t_duration_label"
+        android:layout_alignStart="@+id/t_time_value"
+        android:inputType="number"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/t_comment_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_duration_value"
+        android:layout_alignStart="@+id/t_duration_label"
+        android:layout_marginTop="31dp"
+        android:layout_toStartOf="@+id/t_duration_value"
+        android:textSize="15dp"
+        android:text="@string/t_comment" />
+
+    <EditText
+        android:id="@+id/t_comment_value"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t_comment_label"
+        android:layout_toEndOf="@+id/t_comment_label"
+        android:inputType="textMultiLine"
+        android:textSize="15dp" />
+
+</RelativeLayout>

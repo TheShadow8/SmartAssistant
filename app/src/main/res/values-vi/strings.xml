@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobileFinal</string>
+    <string name="app_exercises_head">Suc khoe so mot...</string>
+    <string name="app_food_head">Thuc an song con...</string>
+    <string name="app_house_head">Nha khong the thieu ...</string>
+    <string name="app_gas_head">Xang thiet yeu...</string>
+
+    <!--Main activity-->
+    <string name="toolbar_guide">Huong dan:</string>
+    <string name="welcome">Chao mung den voi MobileFinal Apps.\nXin moi nhap chuot vao bat cu dong nao de bat dau.</string>
+
+    <string name="menu_exercise">Activity Tracker</string>
+    <string name="menu_food">Food Nutrition Tracker</string>
+    <string name="menu_thermostat">House Thermostat</string>
+    <string name="menu_automobile">Automobile</string>
+
+    <string name="final_apps">Mobile Final Applications</string>
+    <string name="guidelines">Huong dan su dung:</string>
+    <string name="activity_track">Nhap du lieu va theo doi hoat dong the luc cua ban</string>
+    <string name="nutrition">Theo doi thuc an duoc an vao, thong tin dinh duong, va tinh nang luong </string>
+    <string name="thermostat">Tao ra cong thuc cho thermostat de dieu hoa nhiet do trong nha ban</string>
+    <string name="automobile">Tong ket xang mua cho xe ban</string>
+
+    <!---Automobile activity-->
+    <string name="gas_records">Bao Cao Xang Mua</string>
+    <string name="price_title">Gia($)</string>
+    <string name="amount_title">Luong xang(L)</string>
+    <string name="distance_title">Khoang cach(Km)</string>
+    <string name="date_title">Ngay(dd/mm/yyyy)</string>
+    <string name="delete_title">Xoa</string>
+    <string name="menu_home">Trang chu</string>
+    <string name="menu_help">Giup do</string>
+    <string name="help_automobile">Huong dan cho app nay</string>
+    <string name="done">Ket thuc</string>
+    <string name="help_menu">
+        \t<b>Tac gia:</b>\tThanh Trac Tran\n
+        \t<b>So version:</b>\t1\n
+        \t<b>Ngon ngu ho tro:</b>\tEnglish\t and Vietnamese\n\n
+        \t<b>Huong dan:</b>\n
+        \t\u2022 Nhap chuot vao \'Them vao \' de them vao du lieu\n
+        \t\u2022 Nhap chuot vao moi dong de thay doi du lieu\n
+        \t\u2022 Nhap chuot vao dau cheo do de xoa dong du lieu\n
+        \t\u2022 Nhap chuot vao \'Xem lich su\'\tde xem xang da mua\n
+        \t\u2022 Tro lai trang chu hay trang Automobile bang cach nhap chuot vao \'Home\' tren \'Help\'
+
+    </string>
+
+    <string name="btn_add_gas_purchased">Them xang mua</string>
+    <string name="btn_history">Xem lich su</string>
+    <string name="gas_price">Gia xang ($)</string>
+    <string name="gas_litres">Luong xang (L)</string>
+    <string name="distance">Khoang cach di duoc (Km)</string>
+    <string name="purchased_date">Ngay mua(dd/mm/yyyy)</string>
+    <string name="label_loading">Dang tai</string>
+
+    <string name="cancel">Khong</string>
+    <string name="ok">Chap nhan</string>
+
+    <string name="agree">Dong y</string>
+    <string name="disagree">Khong dong y</string>
+
+    <string name="btn_add">Them</string>
+
+    <string name="alert_add">Xin moi dien vao tat ca o trong truoc khi them du lieu</string>
+    <string name="alert_edit">Xin moi dien vao tat ca o trong truoc khi luu giu du lieu </string>
+
+    <string name="add_gas_title">Chi Tiet Them Du Lieu</string>
+    <string name="btn_add_details">Them</string>
+    <string name="toast_details_added">Chi tiet xang them vao thanh cong</string>
+
+    <string name="edit_gas_title">Chi Tiet Dieu Chinh Du Lieu</string>
+    <string name="btn_save_details">Luu Giu</string>
+    <string name="toast_details_saved">Changes saved successfully</string>
+
+    <string name="delete_gas_title">Chi Tiet Xoa Bo</string>
+    <string name="alert_delete_message">Ban co muon xoa du lieu nay khong?</string>
+    <string name="toast_details_deleted">Du lieu xoa thanh cong</string>
+
+    <string-array name="months">
+        <item>Thang Gieng</item>
+        <item>Thang Hai</item>
+        <item>Thang Ba</item>
+        <item>Thang Tu</item>
+        <item>Thang Nam</item>
+        <item>Thang Sau</item>
+        <item>Thang Bay</item>
+        <item>Thang Tam</item>
+        <item>Thang Chin</item>
+        <item>Thang Muoi</item>
+        <item>Thang Muoi Mot</item>
+        <item>Thang Muoi Hai</item>
+    </string-array>
+
+    <string name="last_month_summary">Tong Ket Thang Truoc</string>
+    <string name="last_month_price">Gia Xang Trung Binh:</string>
+    <string name="last_month_gas_amount">Tong So Tien Mua Xang:</string>
+    <string name="gas_purchased_history">Lich Su Mua Xang</string>
+    <string name="gas_purchased_history_none">Hien tai ban chua mua xang</string>
+
+    <!--House Thermostat  activity-->
+    <string-array name="days">
+        <item>Thu Hai </item>
+        <item>Thu Ba</item>
+        <item>Thu Tu</item>
+        <item>Thu Nam</item>
+        <item>Thu Sau</item>
+        <item>Thu Bay</item>
+        <item>Chu Nhat</item>
+
+    </string-array>
+
+    <!--Exercises activity-->
+    <string name="t_new_activity">Hoat dong moi</string>
+    <string name="t_edit_activity">Dieu chinh Hoat Dong</string>
+
+    <string name="t_wanna_back">Ban co muon tro lai trang truoc?</string>
+    <string name="t_wanna_update">Ban co muon dieu chinh hoat dong?</string>
+    <string name="t_wanna_delete">Ban co muon xoa hoat dong nay?</string>
+    <string name="t_act_save_success">Hoat dong duoc luu thanh cong</string>
+    <string name="t_act_update_success">Hoat dong duoc dieu chinh thanh cong</string>
+    <string name="t_act_delete_success">hoat dong duoc xoa thanh cong</string>
+    <string name="t_ok">Co</string>
+    <string name="t_cancel">Khong</string>
+    <string name="t_save">Luu</string>
+    <string name="t_update">Dieu chinh</string>
+    <string name="t_delete">Xoa</string>
+    <string name="t_stay">Giu lai trang nay</string>
+
+    <string name="t_help">
+        Author: Rongchen Yu \t\t SO version: 1.0 \n
+        -----------------------------------------\n\n
+        Huong dan:\n\n
+        1. Giup do \n
+        Nhap chuot vao Giup do de biet cach su dung app nay \n\n
+        2. Thong ke hoat dong \n
+        Nhap chuot vao Thong ke de biet bao nhieu phut cho moi hoat dong trong mot thang,
+        va cung biet bao nhieu hoat dong trong mot thang. \n\n
+        3. Them hoat dong \n
+        Nhap chuot vao nut Them o ben duoi phai de xuat hien trang Hoat dong moi, roi dien thong tin
+        vao va luu du lieu bang cach nhan nut Luu. \n\n
+        4. Dieu chinh hoat dong \n
+        Nhap chuot vao moi dong trong danh sach hoat dong de xuat hien trang dieu chinh hoat dong,
+        thay doi thong tin cua hoat dong roi luu du thong tin da dieu chinh bang cach nhap vao nut Dieu chinh,
+        hoac xoa thong tin da dieu chinh bang cach nhap vao nut Xoa.\n\n
+    </string>
+    <string-array name="t_activities">
+        <item>Chay</item>
+        <item>Di bo</item>
+        <item>Di xe dap</item>
+        <item>Boi loi</item>
+        <item>Truot tuyet</item>
+    </string-array>
+    <string name="t_type">Loai</string>
+    <string name="t_time">Gio</string>
+    <string name="t_duration">Khoang thoi gian</string>
+    <string name="t_comment">Binh luan</string>
+    <string name="t_count_per_act">So luong moi hoat dong\n</string>
+    <string name="t_duration_per_act">Thoi gian moi hoat dong:\n</string>
+    <string name="t_start_at">Bat dau luc: </string>
+    <string name="t_for"> cho </string>
+    <string name="t_min_note"> phut. Chu y:\t </string>
+    <string name="t_help_title">Giup do</string>
+    <string name="t_stats_title">Thong ke</string>
+
+    <!--Nutritional Food-->
+    <string name="title_activity_nutrition">Chao mung den voi app!</string>
+    <string name="f_saveConfirm">Luu thanh cong</string>
+    <string name="sure_to_cancel">Ban co muon tro lai trang truoc?</string>
+    <string name="f_ok">Ok</string>
+    <string name="f_no">Huy</string>
+    <string name="f_wanna_update">Ban co muon dieu chinh?</string>
+    <string name="sure_to_delete">Ban co muon xoa dong nay?</string>
+    <string name="f_delete_success">Xoa thanh cong</string>
+    <string name="addbutton">Nhap chuot vao day de nhap thuc an ma ban da an!</string>
+    <string name="introduceRecord">Ben duoi la dong tom tat, nhap chuot vao de xem va dieu chinh</string>
+    <string name="calculate">Tinh nang luong</string>
+    <string name="type">Ten thuc an</string>
+    <string name="time">Gio</string>
+    <string name="calories">Nang luong</string>
+    <string name="fat">Mo (g)</string>
+    <string name="carbohydrate">Bot duong (g)</string>
+    <string name="save">Luu</string>
+    <string name="f_cancel">Huy</string>
+    <string name="update">Dieu chinh</string>
+    <string name="delete">Xoa</string>
+
+
+
+</resources>

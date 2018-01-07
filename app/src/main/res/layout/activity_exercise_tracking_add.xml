@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/t_add_activity_layout"
+    android:background="#c2f2ff"
+    tools:context="com.example.thanh.mobilefinal.ExerciseTrackingAdd">
+
+    <TextView
+        android:id="@+id/t_add_new_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="@string/t_new_activity"
+        android:textSize="25dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"/>
+
+    <fragment
+        android:name="com.example.thanh.mobilefinal.ExerciseTrackingEditFragment"
+        android:id="@+id/t_add_activity_fragment"
+        android:layout_below="@id/t_add_new_activity"
+        android:background="#c2f2ff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/t_new_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="280dp"
+        android:layout_marginEnd="37dp"
+        android:background="#d3dbf8"
+        android:text="@string/t_save" />
+
+    <Button
+        android:id="@+id/t_cancel_new_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/t_new_activity"
+        android:layout_marginStart="27dp"
+        android:background="#d3dbf8"
+        android:text="@string/t_cancel" />
+
+
+</RelativeLayout>
+
+
+
+

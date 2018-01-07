@@ -1,0 +1,193 @@
+<resources>
+    <string name="app_name">MobileFinal</string>
+    <string name="app_exercises_head">Health is first...</string>
+    <string name="app_food_head">Food is vital...</string>
+    <string name="app_house_head">House is crucial...</string>
+    <string name="app_gas_head">Gas is essential...</string>
+
+    <!--Main activity-->
+    <string name="toolbar_guide">Toolbar Guide:</string>
+    <string name="welcome">Welcome to the MobileFinal Apps.\nPlease click any item to start.</string>
+
+    <string name="menu_exercise">Activity Tracker</string>
+    <string name="menu_food">Food Nutrition Tracker</string>
+    <string name="menu_thermostat">House Thermostat</string>
+    <string name="menu_automobile">Automobile</string>
+
+    <string name="final_apps">Mobile Final Applications</string>
+    <string name="guidelines">Guidelines:</string>
+    <string name="activity_track">Enter and track your exercises</string>
+    <string name="nutrition">Track your food intake, nutritional information and calculate calories</string>
+    <string name="thermostat">Setup the rules for your thermostat to manage your home\'s temperature</string>
+    <string name="automobile">Records buying gasoline for your car </string>
+
+    <!---Automobile activity-->
+    <string name="gas_records">Gas Purchased Records</string>
+    <string name="price_title">Price($)</string>
+    <string name="amount_title">Amount(L)</string>
+    <string name="distance_title">Distance(Km)</string>
+    <string name="date_title">Date(dd/mm/yyyy)</string>
+    <string name="delete_title">Delete</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_help">Help</string>
+    <string name="help_automobile">Automobile Activity Instructions</string>
+    <string name="done">Done</string>
+    <string name="help_menu">
+        \t<b>Author:</b>\tThanh Trac Tran\n
+        \t<b>Version Number:</b>\t1.0\n
+        \t<b>Languages Supported:</b>\tEnglish\t and Vietnamese\n\n
+        \t<b>Instructions:</b>\n
+        \t\u2022 Click the \'Add Gas Purchased \' to add an entry\n
+        \t\u2022 Click a row to edit an entry\n
+        \t\u2022 Delete an entry by clicking the red cross sign on the row\n
+        \t\u2022 Click the \'View Gas History\'\tto view past gas purchased\n
+        \t\u2022 Return home page or Automobile page by clicking \'Home\' above \'Help\'
+
+    </string>
+
+    <string name="btn_add_gas_purchased">Add Gas Purchased</string>
+    <string name="btn_history">View History</string>
+    <string name="gas_price">Gas Price ($)</string>
+    <string name="gas_litres">Gas Amount (L)</string>
+    <string name="distance">Distance (Km)</string>
+    <string name="purchased_date">Date(dd/mm/yyyy)</string>
+    <string name="label_loading">Loading</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="agree">Yes</string>
+    <string name="disagree">No</string>
+
+    <string name="btn_add">Add</string>
+
+    <string name="alert_add">Please fill in all fields before adding an entry</string>
+    <string name="alert_edit">Please fill in all fields before saving an entry</string>
+
+    <string name="add_gas_title">Add Gas Details</string>
+    <string name="btn_add_details">Add</string>
+    <string name="toast_details_added">Gas details added successfully</string>
+
+    <string name="edit_gas_title">Edit Gas Details</string>
+    <string name="btn_save_details">Save</string>
+    <string name="toast_details_saved">Changes saved successfully</string>
+
+    <string name="delete_gas_title">Delete Gas Details</string>
+    <string name="alert_delete_massage">Do you want to delete this entry?</string>
+    <string name="delete_successful">Row deleted successfully</string>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="last_month_summary">Last Month\'s Summary</string>
+    <string name="last_month_price">Average Gas Price:</string>
+    <string name="last_month_gas_amount">Total Gas Purchased:</string>
+    <string name="gas_purchased_history">Gas Purchased History</string>
+    <string name="gas_purchased_history_none">You currently have no gas purchase history</string>
+
+    <!--House Thermostat  activity-->
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+
+    </string-array>
+
+
+    <!--Exercises activity-->
+    <string name="t_new_activity">New Exercise</string>
+    <string name="t_edit_activity">Update Exercise</string>
+
+    <string name="t_wanna_back">Do you want to go back?</string>
+    <string name="t_wanna_update">Do you want to update exercise?</string>
+    <string name="t_wanna_delete">Do you want to delete exercise?</string>
+    <string name="t_act_save_success">Exercise is saved successfully</string>
+    <string name="t_act_update_success">Exercise is updated successfully</string>
+    <string name="t_act_delete_success">Exercise is deleted successfully</string>
+    <string name="t_ok">OK</string>
+    <string name="t_cancel">Cancel</string>
+    <string name="t_save">Save</string>
+    <string name="t_update">Update</string>
+    <string name="t_delete">Delete</string>
+    <string name="t_stay">Stay in the page</string>
+
+    <string name="t_help">
+        Author: Rongchen Yu \t\t Version: 1.0 \n
+        -----------------------------------------\n\n
+        Instructions:\n\n
+        1. Help \n
+        Click Help to show the helps about how to use the app. \n\n
+        2. Exercise Statistics \n
+        Click Statistics to display how many minutes of exercise the user does per month,
+        and also show how much exercise the user did per month. \n\n
+        3. Add Exercise \n
+        Click the add icon to navigate to new exercise page,
+        where you can enter the information for new exercise, and save new exercise by clicking the Save button. \n\n
+        4. Edit Exercise \n
+        Click the item in the exercise list to navigate to the page to edit exercise,
+        where you can change the information, and update the exercise by clicking the Update button,
+        or delete the exercise by clicking the Delete button. \n\n
+    </string>
+    <string-array name="t_activities">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Biking</item>
+        <item>Swimming</item>
+        <item>Skating</item>
+    </string-array>
+    <string name="t_type">Type</string>
+    <string name="t_time">Time</string>
+    <string name="t_duration">Duration</string>
+    <string name="t_comment">Comment</string>
+    <string name="t_count_per_act">Count per exercise:\n</string>
+    <string name="t_duration_per_act">Duration per exercise:\n</string>
+    <string name="t_start_at">start at </string>
+    <string name="t_for"> for </string>
+    <string name="t_min_note"> minutes. Note:\t </string>
+    <string name="t_help_title">Help</string>
+    <string name="t_stats_title">Statistics</string>
+
+    <!--Nutritional Food-->
+    <string name="title_activity_nutrition">Welcome to this calorie tracking application !</string>
+    <string name="f_saveConfirm">Saved successfully</string>
+    <string name="sure_to_cancel">Do you want to go back?</string>
+    <string name="f_ok">Ok</string>
+    <string name="f_no">Cancel</string>
+    <string name="f_wanna_update">Do you want to update?</string>
+    <string name="sure_to_delete">Do you want to delete this record?</string>
+    <string name="f_delete_success">Deleted successfully</string>
+    <string name="addbutton">Click here to enter the food nutrition you just ate !</string>
+    <string name="introduceRecord">Below is the record you entered, click on it to view and edit</string>
+    <string name="calculate">Calculate Avg</string>
+    <string name="type">Food Name</string>
+    <string name="time">Time</string>
+    <string name="calories">Calories</string>
+    <string name="fat">Fat (g)</string>
+    <string name="carbohydrate">Carbohydrate (g)</string>
+    <string name="save">Save</string>
+    <string name="f_cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="avgM">Here is your average of calories per day</string>
+    <string name="date">Date</string>
+    <string name="dayNum">Here is your total day number:</string>
+    <string name="calN">Here is your last day total calories:</string>
+
+
+</resources>

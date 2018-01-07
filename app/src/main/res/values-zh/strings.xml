@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_main_head">欢迎光临</string>
+    <string name="app_exercises_head">健康很重要...</string>
+    <string name="app_food_head">食物更重要...</string>
+    <string name="app_house_head">住房...不说了...</string>
+    <string name="app_gas_head">汽油，听说不好...</string>
+
+    <string name="toolbar_guide">我是一个工具！ Guide:</string>
+    <string name="welcome">欢迎光临，按键开始： </string>
+
+    <string name="menu_exercise">运动板块：</string>
+    <string name="menu_food">营养板块：</string>
+    <string name="menu_thermostat">住房：</string>
+    <string name="menu_automobile">汽车：</string>
+
+    <string name="final_apps">手机安卓案例：</string>
+    <string name="guidelines">向导:</string>
+    <string name="activity_track">进入运动模式</string>
+    <string name="nutrition">食品健康，从每一克卡路里开始</string>
+    <string name="thermostat">住房温度怎么了？开始加温！</string>
+    <string name="automobile">汽油太贵，我的汽车没油了，没钱怎么加油? </string>
+    <!-- activity tracking -->
+    <string name="t_new_activity">添加</string>
+    <string name="t_edit_activity">更新</string>
+    <string name="t_activities">美丽新生活</string>
+    <string name="t_wanna_back">你想回去啊?</string>
+    <string name="t_wanna_update">你想把活动改了?</string>
+    <string name="t_wanna_delete">你想把活动删了?</string>
+    <string name="t_act_save_success">活动整完了</string>
+    <string name="t_act_update_success">活动改完了</string>
+    <string name="t_act_delete_success">活动删完了</string>
+    <string name="t_ok">行</string>
+    <string name="t_cancel">算了</string>
+    <string name="t_save">存盘</string>
+    <string name="t_update">改动</string>
+    <string name="t_delete">删了</string>
+    <string name="t_stay">还在这待着</string>
+    <string name="t_author">作者: 金素莉</string>
+    <string name="t_version">版本: 1.0.0</string>
+    <string name="t_help">
+        作者: 金素莉 \t\t 版本: 1.0.0 \n
+        -----------------------------------------\n\n
+        1. 帮助 \n\n
+        点  Help 显示帮助菜单. \n\n
+        2. 活动总结 \n\n
+        点 Statistics 显示活动总结。一个月每个活动整几次，每个活动整多长时间. \n\n
+        3. 添加活动 \n\n
+        点击添加图标去添加新活动页面。你可在那输入信息，点击存盘来保存新活动。\n\n
+        4. 改动活动 \n\n
+        在活动列表那嘎达,点击你想改动的那条，完了去改动活动页面，就可以进行改动。也可以删除选择的那条。 \n\n
+    </string>
+    <string-array name="t_activities">
+        <item>撒鸭子</item>
+        <item>走道</item>
+        <item>骑车子</item>
+        <item>游泳</item>
+        <item>滑出溜</item>
+    </string-array>
+    <string name="t_type">活动</string>
+    <string name="t_time">时间</string>
+    <string name="t_duration">搞多久</string>
+    <string name="t_comment">评语</string>
+    <string name="t_count_per_act">每个活动整几次:\n</string>
+    <string name="t_duration_per_act">每个活动整多长时间:\n</string>
+    <string name="t_start_at">在</string>
+    <string name="t_for"> </string>
+    <string name="t_min_note">分钟. 评语: </string>
+    <string name="t_help_title">帮助</string>
+    <string name="t_stats_title">统计</string>
+
+
+    <!--Nutritional Food-->
+
+    <string name="app_name">期末项目</string>
+    <string name="title_activity_nutrition">欢迎来到卡路里计算软件 !</string>
+    <string name="f_saveConfirm">保存成功</string>
+    <string name="sure_to_cancel">您确定返回吗?</string>
+    <string name="f_ok">确定</string>
+    <string name="f_no">取消</string>
+    <string name="f_wanna_update">您确定更新信息吗？</string>
+    <string name="sure_to_delete">您确定删除吗?</string>
+    <string name="f_delete_success">删除成功</string>
+    <string name="addbutton">点击此处添加新的食品营养成分 !</string>
+    <string name="introduceRecord">下方是您添加的食品记录，点击可进行修改</string>
+    <string name="calculate">计算平均值</string>
+    <string name="type">食品名称</string>
+    <string name="time">时间</string>
+    <string name="calories">卡路里</string>
+    <string name="fat">脂肪 (g)</string>
+    <string name="carbohydrate">碳水化物 (g)</string>
+    <string name="save">保存</string>
+    <string name="f_cancel">取消</string>
+    <string name="update">更新</string>
+    <string name="delete">删除</string>
+
+</resources>

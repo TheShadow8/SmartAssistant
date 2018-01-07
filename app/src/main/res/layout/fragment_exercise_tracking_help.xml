@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thanh.mobilefinal.ExerciseTrackingHelpFragment">
+
+    <TextView
+        android:id="@+id/t_help"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:background="#c2f2ff"
+        android:gravity="left"
+        android:maxLines="50"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:text="@string/t_help"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/t_help_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/t_help"
+        android:text="@string/t_ok" />
+
+</RelativeLayout>

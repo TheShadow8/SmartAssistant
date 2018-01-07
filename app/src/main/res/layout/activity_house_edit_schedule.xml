@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight"
+    android:fitsSystemWindows="true">
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="callListView"
+        android:text="Save"
+        android:layout_alignBaseline="@+id/saveasnew"
+        android:layout_alignBottom="@+id/saveasnew"
+        android:background="@color/colorAccent"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/saveasnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save as new rule"
+        android:layout_marginTop="156dp"
+        android:layout_below="@+id/newTime"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/newDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:editable="false"
+        android:autoText="false"
+        android:ems="10"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/newTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/newTem"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="20dp"
+        android:editable="false"
+        android:autoText="false"
+        android:ems="10"
+        android:hint="Edit time"
+        android:inputType="none" />
+
+    <EditText
+        android:id="@+id/newTem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newTime"
+        android:hint="Edit Temperature"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/save"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/newDay"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/newDay"
+        android:layout_below="@+id/newDay"
+        android:layout_marginTop="14dp"
+        android:elevation="1dp"
+        android:text="Edit day"
+        android:textSize="18sp"
+        tools:text="Edit day" />
+
+    <TextView
+        android:text=" C\u00B0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/newTem"
+        android:layout_toEndOf="@+id/newTem" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
